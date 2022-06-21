@@ -1,0 +1,109 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+        <script src="https://kit.fontawesome.com/0505d45c82.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <div class="headings">
+                    <h1>Available Cars</h1>
+                    <p>There are 15 cars that match your criteria</p>
+                </div>
+                <div class="options">
+                    <div class="icons">
+                        <input type="text" class="search">
+                        <img src="./assets/menu.svg" class="menu">
+                    </div>
+                
+                <div class="filter">
+                   <div class="chk-container">
+                       <input class="input_checkbox" type="checkbox" id="new">
+                       <label class="label_checkbox" for="new">New cars</label>
+                   </div>
+                     <div class="chk-container">
+                       <input class="input_checkbox" type="checkbox" id="used">
+                       <label class="label_checkbox" for="used">Used cars</label>
+                   </div>
+                     <div class="chk-container">
+                       <input class="input_checkbox" type="checkbox" id="dealer">
+                       <label class="label_checkbox" for="dealer">Dealership</label>
+                   </div>
+                     <div class="chk-container">
+                       <input class="input_checkbox" type="checkbox" id="owner">
+                       <label class="label_checkbox" for="owner">For sale by owner</label>
+                   </div>
+                </div>
+                </div>
+            </header>
+            
+            <main>
+                <div class="labels">
+                    <p>Car Details</p>
+                    <p>Location</p>
+                    <p>Price</p>
+                    <p>Action</p>
+                </div>
+                
+                <div class="card">
+                    <a href="#" class="description">2017 Toyota Highlander V4</a>
+                    <p class="location">1944 Scrimba Ln <br> Youngstown, OH 44481</p>
+                    <div class="cols-2">
+                        <p class="price">$17,400</p>
+                        <i onclick="changeHearts(this)" class="far fa-heart fa-lg"></i>   
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <a href="#" class="description">2012 Toyota Tundra 4x4</a>
+                    <p class="location">301 Fantasy Dr <br> Beverly Hills, CA 90210</p>
+                       <div class="cols-2">
+                        <p class="price">$23,900</p>
+                        <i onclick="changeHearts(this)" class="far fa-heart fa-lg"></i>   
+                    </div>
+                    
+                </div>
+                   <div class="card">
+                    <a href="#" class="description">2004 Dodge Ram 4x4</a>
+                    <p class="location">9104 Falsety Ave <br> AnonyVille, FL 40440</p>
+                       <div class="cols-2">
+                        <p class="price">$7,998</p>
+                        <i onclick="changeHearts(this)" class="far fa-heart fa-lg"></i>   
+                    </div>
+                   
+                </div>
+                   <div class="card">
+                    <a href="#" class="description">2021 Tesla Model 3</a>
+                    <p class="location">993 Fiscal St <br> Boulder, CO 93391</p>
+                       <div class="cols-2">
+                        <p class="price">$37,490</p>
+                        <i onclick="changeHearts(this)" class="far fa-heart fa-lg"></i>   
+                    </div>   
+                    
+                </div>
+                <div class="card">
+                    <a href="#" class="description">2017 Toyota Highlander V4</a>
+                    <p class="location">1944 Scrimba Ln <br> Youngstown, OH 44481</p>
+                       <div class="cols-2">
+                        <p class="price">$17,400</p>
+                        <i  onclick="changeHearts(this)" class="far fa-heart fa-lg"></i>   
+                    </div>
+                    
+                </div>
+                <div class="card">
+                    <a href="#" class="description">2012 Toyota Tundra 4x4</a>
+                    <p class="location">301 Fantasy Dr <br> Beverly Hills, CA 90210</p>
+                       <div class="cols-2">
+                        <p class="price">$23,900</p>
+                        <i onclick="changeHearts(this)" class="far fa-heart fa-lg"></i>   
+                    </div>
+                </div>
+               
+            </main>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
